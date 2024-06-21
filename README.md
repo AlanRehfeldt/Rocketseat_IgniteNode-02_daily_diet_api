@@ -82,9 +82,8 @@ Os testes incluem:
 ### Rotas de User
 
 - **POST /users**: Cria um novo usuário.
-- **GET /users/:id**: Obtém detalhes de um usuário específico.
+- **GET /users/me**: Obtém detalhes do usuário logado.
 - **PUT /users/:id**: Atualiza informações de um usuário.
-- **DELETE /users/:id**: Remove um usuário.
 
 ### Rotas de Session
 
@@ -94,9 +93,9 @@ Os testes incluem:
 
 - **POST /meals**: Adiciona uma nova refeição.
 - **GET /meals**: Lista todas as refeições do usuário.
-- **GET /meals/:id**: Obtém detalhes de uma refeição específica.
 - **PUT /meals/:id**: Atualiza informações de uma refeição.
 - **DELETE /meals/:id**: Remove uma refeição.
+- **GET /meals/metrics**: Retorna as métricas de um usuário.
 
 ## Tecnologias Utilizadas
 
