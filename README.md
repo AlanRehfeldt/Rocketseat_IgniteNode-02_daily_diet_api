@@ -65,7 +65,7 @@ Para configurar e executar o banco de dados, siga os passos abaixo:
     npm run knex -- migrate:make migration_name
     ```
 
-### Rodando Testes - em progresso
+### Rodando Testes
 
 Para executar os testes, use o comando:
 
