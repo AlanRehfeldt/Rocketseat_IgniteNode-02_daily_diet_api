@@ -107,7 +107,7 @@ Os testes incluem:
 - SQLite (pode ser alterado para outro banco de dados conforme configuração)
 - Zod
 - Cookies
-- jsonwebtoken
+- Jsonwebtoken
 - Tsx
 - Dotenv
 - Vitest
